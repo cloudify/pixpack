@@ -1,0 +1,22 @@
+#
+# 3D TeSTiNG - Pix / NeMeSiS
+#
+
+compress = -C
+debug = #debug.obj
+
+linker = c:\asm\pmode\dos32\bin\dlink
+linkeroptions = -S -v $(compress)
+assembler = tasm
+assembleroptions = /m /zi
+projectname = 3dtest
+linklist = $(debug) main.obj vbuffer.obj key.obj mem.obj phong.obj \
+			vga.obj 3do.obj 3d.obj trig.obj
+
+$(projectname) : $(linklist)
+	#del $(projectname)
+	$(linker) $(linkeroptions) $(linklist) , $(projectname)
+
+.asm.obj: 
+	$(assembler) $(assembleroptions) $*;
+

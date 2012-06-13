@@ -1,0 +1,7 @@
+MAKE Version 3.6  Copyright (c) 1991 Borland International
+
+Available memory 15023424 bytes
+
+        c:\asm\pmode\dos32\bin\dlink -S -v -C  main.obj vbuffer.obj key.obj mem.obj phong.obj  vga.obj 3do.obj 3d.obj trig.obj , 3dtest
+
+** error 1 ** deleting 3dtest

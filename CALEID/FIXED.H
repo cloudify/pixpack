@@ -1,0 +1,1 @@
+long	fixed_mul	( long a, long b );

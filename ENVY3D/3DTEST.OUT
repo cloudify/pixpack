@@ -1,0 +1,25 @@
+
+ - 3D TeSTiNG UnDeR P.MoDE - copyright 1995 Pix / N!P
+
+ - installing keyboard handler
+ - alloc > virtual video buffer (64k): 0000F000H ok
+ - alloc > phong map (64k): 0001F000H ok
+ - alloc > div table (820k): 00030000H ok
+ - making > div-table
+ - load > phong map/palette:  ok
+ - loading 3DO
+ : # of vertices: 000003E8H
+ : # of faces: 000003E8H
+ > allocating memory, ret: 00000000H
+ : vertex list ptr: 000F8000H
+ : face list ptr: 000FF000H
+ > reading chunks
+ : chunk  len:00002EE0H id:'VLST' 
+ : > reading vertex list
+ : chunk  len:00008CA0H id:'FLST' 
+ : > reading face list
+ : chunk  len:00002EE0H id:'VNOR' 
+ : > reading vertex normal list
+ : chunk  len:00002EE0H id:'FNOR' 
+ - alloc RSortBlock: 00106000H ok
+

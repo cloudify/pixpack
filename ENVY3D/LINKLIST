@@ -1,0 +1,10 @@
+debug.obj 
+main.obj 
+vbuffer.obj 
+key.obj 
+mem.obj 
+phong.obj 
+vga.obj 
+3do.obj 
+3d.obj 
+trig.obj

@@ -1,0 +1,22 @@
+
+ pixpack - C/ASM source pack
+ ---------------------------
+     þ pix production þ
+
+Hi, this is a collection of sources by me, most of them are only simple tests
+so nothing is a "complete" effect...
+I have no more time to code or go on, so I've released all to help someone
+with my work.
+Most of the C/C++ sources must be compiled with BCC 3.0+, for the other (the
+oldest) I've used MSC 5.0+... For the ASM sources I recomend you TASM 3.0+.
+For any greeting/question you can contact me via e-mail:
+
+ fferoldi@mbox.vol.it
+ federico@logicom.it
+ 2:331/223.15@fidonet.org
+
+or in IRC in #demo-ita channel...
+
+Good luck & have fun! :)
+
+ Federico 'pix' Feroldi
